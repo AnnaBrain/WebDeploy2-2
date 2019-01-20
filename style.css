@@ -1,0 +1,120 @@
+.navbar-default {
+    background-color: #95A5A6;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.navSecond {
+    margin-top: 2.6%;
+    background-color: rgb(114, 133, 134);
+}
+
+.navSeconda {
+    font-size: 3rem;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: rgb(81, 91, 92);
+}
+
+.navbar-default .navbar-nav>li>a:nth-child(1) {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.right {
+    color: black;
+    padding-left: 40%;
+    margin-top: 10%;
+}
+
+.carousel-control.left {
+    color: black;
+    padding-right: 40%;
+    margin-top: 10%;
+}
+
+#carousel-example-generic {
+    height: 20vh;
+}
+
+.py-1 {
+    padding: 2% 18% 0 18%;
+    font-size: 1.8rem;
+}
+
+.carousel-indicators li {
+    margin-bottom: -185px;
+    background-color: grey;
+}
+
+.carousel-indicators .active {
+    margin-bottom: -185px;
+    background-color: black;
+}
+
+.greenSpan {
+    color: rgb(8, 182, 167);
+    font-weight: bold;
+}
+
+.imgTest {
+    border: 1px solid lightgrey;
+    padding: 5px;
+}
+
+.hr {
+    border: 2px solid rgb(8, 182, 167);
+    width: 8%;
+}
+
+.h3Testemonials {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.bgContact {
+    background-image: url(2.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.buttonSign {
+    background: rgba(203, 96, 179, 1);
+    border-radius: 30px;
+    color: white;
+    padding: 5px 75px 5px 75px;
+}
+
+.form-group input {
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid rgb(190, 186, 186);
+    border-radius: 0;
+}
+
+.py-2 {
+    padding: 20px 50px 20px 50px;
+}
+
+.py-3 {
+    padding-top: 20px;
+}

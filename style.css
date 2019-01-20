@@ -1,0 +1,88 @@
+.slide1 {
+    background-image: url(slide_01.png);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    height: 90vh;
+    background-color: rgba(114, 133, 134, 0.5);
+}
+.slide2 {
+    background-image: url(slide_02.png);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    height: 90vh;
+    background-color: rgba(114, 133, 134, 0.5);
+}
+.slide3 {
+    background-image: url(slide_03.png);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    height: 90vh;
+    background-color: rgba(114, 133, 134, 0.5);
+}
+.carousel-caption {
+    margin-bottom: 10%;
+}
+.img1 {
+    background-image: url(product_01.png);
+    background-size: cover;
+    height: 50vh;
+    position: relative !important;
+}
+.img2 {
+    background-image: url(product_02.png);
+    background-size: cover;
+    height: 50vh;
+    position: relative !important;
+}
+.img3 {
+    background-image: url(product_03.png);
+    background-size: cover;
+    height: 50vh;
+    position: relative !important;
+}
+.b1 {
+    border-radius: 20px;
+    background-color: rgb(254, 82, 91);
+    color: white;
+    padding: 7px 20px;
+    margin-top: 3.5%;
+}
+.underText {
+    position: absolute !important;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    padding: 2% 0 2% 0;
+    opacity: 0.1;
+}
+.ping {
+    padding-left: 0%;
+    padding-right: 0%;
+}.bt {
+    font-weight: bolder;
+}
+.ping:hover > .underText {
+    display: block;
+    opacity: 1;
+}
+.ping:hover > .pic {
+    opacity: 0.1;
+}
+.w1 {
+    margin: 0 auto;
+}
+.wom {
+    height: 90px;
+    width: 80px;
+    border: 1px solid lightgrey;
+}
+.wom:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+#exampleModal {
+    width: 100%;
+}
